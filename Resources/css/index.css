@@ -20,5 +20,5 @@ nav li {
 }
 
 #nameAndTitle {
-    background-image: url('/Resources/images/bannerPic.jpg');
+    background-image: url("/Resources/images/bannerPic.jpg");
 }
