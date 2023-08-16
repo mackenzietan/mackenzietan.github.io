@@ -18,3 +18,7 @@ nav li {
     font-weight: 600;
     font-size: 14px;
 }
+
+#nameAndTitle {
+    background-image: url(/Resources/images/bannerPic.jpg);
+}
