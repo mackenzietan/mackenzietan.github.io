@@ -4,7 +4,7 @@ html, body {
 }
 
 /* navigation bar */
-ul .navBar {
+#navBar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,26 +12,27 @@ ul .navBar {
     background-color: darkslategrey;
 }
 
-li .navBar {
+#navBar li {
     float: left;
 }
 
-li a {
+#navBar li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-li a:hover {
-    background-color: olivedrab;
+#navBar li a:hover {
+    background-color: rgb(62, 102, 102);
 }
 
 /* banner */
 #nameAndTitle {
     background-image: url("/Resources/images/bannerPic.jpg");
     background-size: cover;
-    height: 600px;
+    height: 300px;
     width: 100%;
 }
