@@ -4,7 +4,7 @@ html, body {
 }
 
 /* navigation bar */
-ul #navBar {
+ul .navBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ ul #navBar {
     background-color: darkslategrey;
 }
 
-li #navBar {
+li .navBar {
     float: left;
 }
 
