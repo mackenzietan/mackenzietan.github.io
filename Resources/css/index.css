@@ -36,3 +36,9 @@ html, body {
     height: 300px;
     width: 100%;
 }
+
+#nameAndTitle h1, h2 {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
