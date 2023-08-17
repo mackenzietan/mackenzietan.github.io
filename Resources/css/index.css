@@ -5,11 +5,12 @@ html, body {
 
 /* navigation bar */
 #navBar ul {
+    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkslategrey;
+    background-color: rgb(64, 107, 107);
 }
 
 #navBar li {
@@ -18,7 +19,7 @@ html, body {
 
 #navBar li a {
     display: block;
-    color: white;
+    color: rgb(212, 212, 212);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,7 +27,11 @@ html, body {
 }
 
 #navBar li a:hover {
-    background-color: rgb(62, 102, 102);
+    color: white;
+}
+
+#navBarCover {
+    background-color: teal;
 }
 
 /* banner */
@@ -37,8 +42,16 @@ html, body {
     width: 100%;
 }
 
-#nameAndTitle h1, h2 {
+#nameAndTitle h1 {
     display: block;
     text-align: center;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nameAndTitle h2 {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
